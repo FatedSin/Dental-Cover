@@ -1,4 +1,30 @@
-baseURL: ""
 languageCode: en-us
 title: Denta Cover
 theme: hugo-universal-theme
+logo: /img/dental-cover.jpg  # Correct path for your logo
+
+
+
+
+
+# This menu is in LEFT TO RIGHT ORDER (First one is left!)
+
+menu:
+  main:
+    - identifier: home # Reminder, should always be unique
+      name: Home
+      url: /home/
+      weight: 10  # first one
+
+    - identifier: about-us  # Reminder, should always be unique!
+      name: About Us
+      url: /about/
+      weight: 20 # second one.
+
+    - identifier: jobs  # Reminder, should always be unique
+      name: Jobs
+      url: /jobs/
+      weight: 30 # third one.
+
+      
+      
